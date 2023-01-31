@@ -13,7 +13,7 @@ To use this API do the following steps:
 1. first of all, you should clone it on your local computer by using the following command:
 
 ```bash
-git clone https://github.com/dembasow98/chatBot-openAI.git
+git clone https://github.com/nandhakumarRNK/chatBot-openAI.git
 ```
 
 2. Go to the [openai](https://beta.openai.com/account/api-keys) website and generate a new API KEY.
@@ -91,17 +91,6 @@ Please make sure to update tests as appropriate.
 
 This project is an open-source, under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
-## Owner
-
-<div align="center">
-<a href="https://github.com/dembasow98">
-<img src="https://avatars.githubusercontent.com/u/121867811?v=4" width="100px;" alt="Nandhakumar RNK" style="border-radius:50%"/>
-<br />
-<sub><b>Nandhakumar RNK</b></sub>
-</a>
-<br />
-</div>
-
 # Built with
 
 - [Open AI](https://openai.com/) - For API Access
@@ -111,3 +100,16 @@ This project is an open-source, under the [MIT](https://choosealicense.com/licen
 - [Render](https://render.com/) - Backend Deployment
 - [Vercel](https://vercel.com/) - Frontend Deployment
 - [NodeJS](https://nodejs.org/en/) - Backend
+
+
+
+## Developed By
+
+<div align="center">
+<a href="https://github.com/dembasow98">
+<img src="https://avatars.githubusercontent.com/u/121867811?v=4" width="100px;" alt="Nandhakumar RNK" style="border-radius:50%"/>
+<br />
+<sub><b>Nandhakumar RNK</b></sub>
+</a>
+<br />
+</div>
