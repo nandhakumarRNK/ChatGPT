@@ -1,5 +1,7 @@
 # ChatGPT Application using OpenAI
 
+![Screenshot-1](https://user-images.githubusercontent.com/121867811/215762319-175621ec-318a-44e6-b965-98f84334350c.png)
+
 # What is ChatGPT
 ChatGPT is a large language model chatbot developed by OpenAI based on GPT-3.5. It has a remarkable ability to interact in conversational dialogue form and provide responses that can appear surprisingly human. Large language models perform the task of predicting the next word in a series of words.
 
