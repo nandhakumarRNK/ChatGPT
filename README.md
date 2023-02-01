@@ -23,7 +23,7 @@ OpenAI is an Artificial Intelligence (AI) research laboratory and company. Theyâ
 ## Developed By
 
 <div align="center">
-<a href="https://github.com/dembasow98">
+<a href="https://github.com/nandhakumarRNK">
 <img src="https://avatars.githubusercontent.com/u/121867811?v=4" width="100px;" alt="Nandhakumar RNK" style="border-radius:50%"/>
 <br />
 <sub><b>Nandhakumar RNK</b></sub>
