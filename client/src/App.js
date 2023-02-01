@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import SideBarContainer from "./components/SideBarContainer";
 import ChatBoxContainer from "./components/ChatBoxContainer";
 import "./index.css";
+import theme from "./themeChange.svg";
+
 
 const App = () => {
   const [chatLog, setChatLog] = useState([
@@ -12,7 +14,12 @@ const App = () => {
     <div className="App" style={{ width: "100%", display: "flex" }}>
       <SideBarContainer setChatLog={setChatLog} />
       <div className="chatbox" style={{ width: "80%" }}>
-        <div className="headerText">OPENAI - CHATBOT</div>
+        <div className="headerText">
+          <span>
+            <img src={theme} style={{ width: "7%" }} alt="bot" />{" "}
+          </span>
+          <div>CHATBOT - OPENAI</div>
+        </div>
         <ChatBoxContainer chatLog={chatLog} setChatLog={setChatLog} />
       </div>
     </div>

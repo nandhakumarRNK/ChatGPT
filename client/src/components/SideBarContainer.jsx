@@ -20,7 +20,7 @@ const SideBarContainer = ({ setChatLog }) => {
         <span style={{ color: "white" }}>&#10133;</span>
         NEW CHAT
       </div>
-      <div className="project-info">
+      <div className="project-info" style={{ height: "100%" }}>
         {/* <button
           className="side-menu-button"
           style={{ width: "38%" }}
