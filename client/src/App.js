@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import SideBarContainer from "./components/SideBarContainer";
 import ChatBoxContainer from "./components/ChatBoxContainer";
 import "./index.css";
-import "./normal.css";
 
 const App = () => {
   const [chatLog, setChatLog] = useState([
@@ -10,9 +9,10 @@ const App = () => {
   ]);
 
   return (
-    <div className="App">
+    <div className="App" style={{ width: "100%", display: "flex" }}>
       <SideBarContainer setChatLog={setChatLog} />
-      <div className="chatbox">
+      <div className="chatbox" style={{ width: "80%" }}>
+        <div className="headerText">OPENAI - CHATBOT</div>
         <ChatBoxContainer chatLog={chatLog} setChatLog={setChatLog} />
       </div>
     </div>

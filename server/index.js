@@ -29,11 +29,11 @@ app.post("/", async (req, res) => {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: `${message}`,
-      max_tokens: 2049, // max number of words it will give results in
-      temperature: 0.5, // how much creative answer it will give
-      top_p: 1.0, //don't repeat similar results
-      frequency_penalty: 0.5, // whenever stop sequence comes in the result, the completion will stop
-      stop: ["You:"],
+      max_tokens: 2049,
+      temperature: 0.9,
+      top_p: 1.0,
+      frequency_penalty: 0.5,
+      stop: ["\n"],
     });
     res.status(200).json({
       message: response.data.choices[0].text,
@@ -46,6 +46,6 @@ app.post("/", async (req, res) => {
 
 app.listen(port, () => {
   console.log(
-    `Working Fine <---- : ----- > Server is running on port http://localhost:${port}`
+    `Server is running on port http://localhost:${port}`
   );
 });
