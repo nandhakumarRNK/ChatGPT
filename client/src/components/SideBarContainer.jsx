@@ -1,4 +1,5 @@
 import React from "react";
+import theme from "../themeChange.svg";
 
 const SideBarContainer = ({ setChatLog }) => {
   const clearChat = () => {
@@ -16,6 +17,11 @@ const SideBarContainer = ({ setChatLog }) => {
 
   return (
     <aside className="sidemenu" id="sideMenu" style={{ width: "20%" }}>
+      <div className="headerText">
+        <span>
+          <img src={theme} style={{ width: "30%" }} alt="bot" />{" "}
+        </span>
+      </div>
       <div className="side-menu-button" onClick={clearChat}>
         <span style={{ color: "white" }}>&#10133;</span>
         NEW CHAT
