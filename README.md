@@ -1,4 +1,4 @@
-# ChatGPT Application using OpenAI
+# ChatBOT using OpenAI-ChatGPT
 
 
 ![screenshot1](https://user-images.githubusercontent.com/121867811/216287648-0d908ac7-963e-47bf-b35b-1485a9aca67f.png)
