@@ -1,7 +1,8 @@
 # ChatGPT Application using OpenAI
 
 
-![Screenshot-1](https://user-images.githubusercontent.com/121867811/215762319-175621ec-318a-44e6-b965-98f84334350c.png)
+![screenshot1](https://user-images.githubusercontent.com/121867811/216287648-0d908ac7-963e-47bf-b35b-1485a9aca67f.png)
+
 
 
 # What is ChatGPT
