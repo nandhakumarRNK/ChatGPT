@@ -17,12 +17,12 @@ OpenAI is an Artificial Intelligence (AI) research laboratory and company. Theyâ
 # Built with
 
 - [Open AI](https://openai.com/) - For API Access
+- [NodeJS](https://nodejs.org/en/) - Backend
+- [ReactJS](https://nodejs.org/en/) - UI
 - [Vite.JS](https://vitejs.dev/) - Frontend (Vanilla JS)
 - [Express.JS](https://expressjs.com/) - Backend
 - [Google Fonts](https://fonts.google.com/) - Alegreya Sans
 - [Render](https://render.com/) - Backend Deployment
-- [Vercel](https://vercel.com/) - Frontend Deployment
-- [NodeJS](https://nodejs.org/en/) - Backend
 
 
 
