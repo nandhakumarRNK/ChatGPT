@@ -8,7 +8,7 @@ const ChatMessage = ({ message, user }) => {
     <div>
       <div className="chat-message" id={user === "gpt" ? "chatBotInputDivStyle" : "userInputDivStyle"}>
         <div className="avatar" style={{ background: user === "gpt" ? "#0da37f" : "#71059b" }}>
-           <img src={user === "gpt" ? bot : human} alt={user === "gpt" ? "bot" : "human"} /> {/* set chatbot or user */}
+           <img src={user === "gpt" ? bot : human} alt={user === "gpt" ? "bot" : "human"} />
         </div>
         <div className="message">
           {user === "gpt" && (

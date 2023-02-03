@@ -14,13 +14,17 @@ const SideBarContainer = ({ setChatLog }) => {
   //   console.log(element);
   //   element.classList.toggle("dark-mode");
   // };
+  
   return (
     <aside className="sidemenu" id="sideMenu" style={{ width: "20%" }}>
       <div className="headerText">
-        <span><img src={theme} style={{ width: "30%" }} alt="bot" /></span>
+        <span>
+          <img src={theme} className="App-logo" style={{ width: "30%" }} alt="bot" />
+        </span>
       </div>
       <div className="side-menu-button" onClick={clearChat}>
-        <span style={{ color: "white" }}>&#10133;</span>NEW CHAT
+        <span style={{ color: "white" }}>&#10133;</span>
+        NEW CHAT
       </div>
       <div className="project-info" style={{ height: "100%" }}>
         {/*<button className="side-menu-button" style={{width:"38%"}} onClick={()=>{changeThemeFunction();}}>darkmode</button>*/}

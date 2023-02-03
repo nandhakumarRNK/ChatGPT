@@ -10,6 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 .App {
   text-align: center;
   display: flex;
@@ -28,7 +29,6 @@
   font-family: emoji;
   /* border: 1px solid; */
   padding: 5px;
-  /* border-radius: 40px; */
 }
 
 .sidemenu {
@@ -215,7 +215,7 @@
   }
 }
 
-/*-------------------- normalized page css------------------------------------------------ */
+/*-------------------- Browser Based Page Css------------------------------------------------ */
 
 html {
   line-height: 1.15; /* 1 */
