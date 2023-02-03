@@ -1,7 +1,8 @@
-# ChatBOT using OpenAI-ChatGPT
+# ChatBOT-OpenAI
 
 
-![screenshot1](https://user-images.githubusercontent.com/121867811/216287648-0d908ac7-963e-47bf-b35b-1485a9aca67f.png)
+![Screenshot 2023-02-03 102018](https://user-images.githubusercontent.com/121867811/216515311-3596a85c-388e-4ca5-b339-770d9338b3d4.png)
+
 
 
 
