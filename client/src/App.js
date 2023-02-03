@@ -6,7 +6,7 @@ import "./index.css";
 
 const App = () => {
   const [chatLog, setChatLog] = useState([
-    { user: "gpt", message: "Hello User..! How can I help you?" },
+    { user: "gpt", message: "Welcome Back..! How can I help you?" },
   ]);
 
   return (

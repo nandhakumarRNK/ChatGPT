@@ -5,19 +5,10 @@ import human from "../assets/SVGs/user.svg";
 
 const ChatMessage = ({ message, user }) => {
   return (
-    <>
-      <div
-        className="chat-message"
-        id={user === "gpt" ? "chatBotInputDivStyle" : "userInputDivStyle"}
-      >
-        <div
-          className="avatar"
-          style={{ background: user === "gpt" ? "#0da37f" : "#71059b" }}
-        >
-          <img
-            src={user === "gpt" ? bot : human}
-            alt={user === "gpt" ? "bot" : "human"} // set chatbot or user
-          />
+    <div>
+      <div className="chat-message" id={user === "gpt" ? "chatBotInputDivStyle" : "userInputDivStyle"}>
+        <div className="avatar" style={{ background: user === "gpt" ? "#0da37f" : "#71059b" }}>
+           <img src={user === "gpt" ? bot : human} alt={user === "gpt" ? "bot" : "human"} /> {/* set chatbot or user */}
         </div>
         <div className="message">
           {user === "gpt" && (
@@ -40,7 +31,7 @@ const ChatMessage = ({ message, user }) => {
           {<div className="message">{user === "human" && message}</div>}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

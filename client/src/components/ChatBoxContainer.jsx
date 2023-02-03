@@ -3,9 +3,7 @@ import ChatContainer from "./ChatContainer";
 
 const ChatBoxContainer = ({ chatLog, setChatLog }) => {
   const [userInput, setUserInput] = useState("");
-
   const messagesEndRef = useRef(null);
-
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -25,9 +23,7 @@ const ChatBoxContainer = ({ chatLog, setChatLog }) => {
     setUserInput("");
     setChatLog(newChatLogData);
 
-    const messages = newChatLogData
-      .map((message) => message.message)
-      .join("\n");
+    const messages = newChatLogData.map((message) => message.message).join("\n");
     const response = await fetch("https://helpai-chatgpt-clone.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

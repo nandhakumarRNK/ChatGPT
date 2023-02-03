@@ -11,7 +11,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-// creating a simple express api that calls the function
+// creating api that calls the function
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
