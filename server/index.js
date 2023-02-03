@@ -26,16 +26,15 @@ app.get("/", async (req, res) => {
 app.post("/", async (req, res) => {
   try {
     const { message } = req.body;
-    console.log(`User Question : ${message}`);
     const response = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: `${message}`,
-      temperature: 0,
       max_tokens: 3000,
+      temperature: 0.7,
       top_p: 1,
       frequency_penalty: 0.5,
-      presence_penalty: 0,
-      stop: ["., \n, \n\n"],
+      presence_penalty: 0.5,
+      stop: "., \n, \n\n",
     });
     res.status(200).json({
       message: response.data.choices[0].text,
