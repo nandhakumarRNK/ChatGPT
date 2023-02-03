@@ -3,7 +3,6 @@ import SideBarContainer from "./components/SideBarContainer";
 import ChatBoxContainer from "./components/ChatBoxContainer";
 import "./index.css";
 
-
 const App = () => {
   const [chatLog, setChatLog] = useState([
     { user: "gpt", message: "Welcome Back..! How can I help you?" },

@@ -3,7 +3,9 @@ import ChatContainer from "./ChatContainer";
 
 const ChatBoxContainer = ({ chatLog, setChatLog }) => {
   const [userInput, setUserInput] = useState("");
+
   const messagesEndRef = useRef(null);
+  
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -32,7 +34,6 @@ const ChatBoxContainer = ({ chatLog, setChatLog }) => {
       }),
     });
     const data = await response.json();
-    console.log(`Response is:${data.message}`);
 
     setChatLog([
       ...newChatLogData,
