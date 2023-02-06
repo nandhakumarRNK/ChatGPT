@@ -8,14 +8,12 @@ const SideBarContainer = ({ setChatLog }) => {
     setChatLog([]);
     window.location.reload(false);
   };
-
   // const changeThemeFunction = () => {
   //   var element = document.getElementById("sideMenu");
   //   var btn = document.getElementsByClassName("side-menu-button");
   //   console.log(element);
   //   element.classList.toggle("dark-mode");
   // };
-
   return (
     <aside className="sidemenu" id="sideMenu" style={{ width: "20%" }}>
       <div className="headerText">
@@ -42,11 +40,7 @@ const SideBarContainer = ({ setChatLog }) => {
           </p>
         </div>
         <div className="creator">
-          <a
-            href="https://www.github.com/nandhakumarRNK"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
+          <a href="https://www.github.com/nandhakumarRNK" target="_blank" rel="noreferrer noopener">
             <div className="link-icon">
               <img src={github} alt="github" />
             </div>
