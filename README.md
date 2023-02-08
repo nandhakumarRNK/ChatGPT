@@ -1,4 +1,4 @@
-# ChatBOT-OpenAI
+# ChatGPT-OpenAI
 
 ![Screenshot 2023-02-03 102018](https://user-images.githubusercontent.com/121867811/216515311-3596a85c-388e-4ca5-b339-770d9338b3d4.png)
 
