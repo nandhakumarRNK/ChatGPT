@@ -6,10 +6,6 @@ export class ErrorBoundary extends Component {
     this.state = { error: null, errorInfo: null };
   }
 
-  static getDerivedStateFromError(error) {
-    return { hasError: true };
-  }
-
   componentDidCatch(error, errorInfo) {
     this.setState({
       error: error,
