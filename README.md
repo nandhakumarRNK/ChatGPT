@@ -1,6 +1,6 @@
 # ChatGPT-OpenAI
 
-![Screenshot 2023-02-03 102018](https://user-images.githubusercontent.com/121867811/216515311-3596a85c-388e-4ca5-b339-770d9338b3d4.png)
+![Screenshot 2023-02-10 124528](https://user-images.githubusercontent.com/121867811/218027125-445d8adc-7f38-485c-ba4e-93fe2c971778.png)
 
 # What is ChatGPT
 
