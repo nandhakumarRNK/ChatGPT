@@ -19,9 +19,6 @@
 - [Open AI](https://openai.com/) - For API Access
 - [NodeJS](https://nodejs.org/en/) - Backend
 - [ReactJS](https://nodejs.org/en/) - Frontend UI
-- [Vite.JS](https://vitejs.dev/) - Frontend (Vanilla JS)
-- [Express.JS](https://expressjs.com/) - Backend
-- [Google Fonts](https://fonts.google.com/) - Alegreya Sans
 - [Render](https://render.com/) - Backend Deployment
 
 ## Developed By
