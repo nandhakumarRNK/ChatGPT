@@ -132,6 +132,20 @@
   margin-bottom: 15px;
 }
 
+.chat-submit-btn {
+  cursor: pointer;
+  width: 5%;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #40414f;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 25%);
+  border: none;
+  outline: none;
+  border: 2px solid #757575;
+}
+
 .avatar {
   display: flex;
   justify-content: center;
