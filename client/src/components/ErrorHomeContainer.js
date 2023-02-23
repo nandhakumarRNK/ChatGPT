@@ -5,6 +5,7 @@ export class ErrorHomeContainer extends Component {
     window.location.reload(false);
   };
   render() {
+    var tempURL = "";
     return (
       <div>
         <section className="page_404">
@@ -18,7 +19,11 @@ export class ErrorHomeContainer extends Component {
                   <div className="contant_box_404">
                     <h3 className="h2">Something Went Wrong..!</h3>
                     <p>The page Not Available!</p>
-                    <a href={""} className="link_404" onClick={this.goHome}>
+                    <a
+                      href={tempURL}
+                      className="link_404"
+                      onClick={this.goHome}
+                    >
                       Go to Home
                     </a>
                   </div>
