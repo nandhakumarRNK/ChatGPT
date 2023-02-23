@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ErrorHomeContainer from "./ErrorHomeContainer";
 
 export class ErrorBoundary extends Component {
   constructor(props) {
@@ -15,7 +16,11 @@ export class ErrorBoundary extends Component {
 
   render() {
     if (this.state.errorInfo) {
-      return <div>404..Something Went Wrong...!</div>;
+      return (
+        <div>
+          <ErrorHomeContainer />
+        </div>
+      );
     } else {
       return this.props.children;
     }

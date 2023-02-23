@@ -1,6 +1,6 @@
 # ChatGPT Clone
 
-![Screenshot 2023-02-10 124528](https://user-images.githubusercontent.com/121867811/218027125-445d8adc-7f38-485c-ba4e-93fe2c971778.png)
+![preview img](/preview.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ](https://opensource.org/licenses/MIT) [![Website shields.io](https://img.shields.io/website-Up-Down-green-red/http/shields.io.svg)](https://chatgpt-clone-aakash.vercel.app/)
 
@@ -26,6 +26,7 @@
 - [NodeJS](https://nodejs.org/en/) - Backend
 - [ReactJS](https://nodejs.org/en/) - Frontend UI
 - [Render](https://render.com/) - Backend Deployment
+- [TypeWriter Effect](https://github.com/tameemsafi/typewriterjs) - Response
 
 ## Methods
 
